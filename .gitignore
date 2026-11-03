@@ -1,0 +1,7 @@
+.env
+__pycache__/
+.pytest_cache/
+neo4j/
+data/cache/
+data/eval/q4_draft.json
+docs/

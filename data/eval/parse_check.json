@@ -1,0 +1,1152 @@
+[
+ {
+  "id": "Q4-S01",
+  "flags": [],
+  "error": null,
+  "parsed": {
+   "equipment": [
+    {
+     "mention": "출하 2라인 도크",
+     "type": "해당없음"
+    },
+    {
+     "mention": "지게차",
+     "type": "지게차"
+    },
+    {
+     "mention": "파렛트",
+     "type": "운반물"
+    },
+    {
+     "mention": "톤백",
+     "type": "중량물"
+    }
+   ],
+   "situations": [
+    "지게차 사용 작업",
+    "상하차 작업 또는 화물(물체)이 적재된 장소 주변에서의 작업",
+    "혼재작업(작업자-작업차량)"
+   ]
+  },
+  "conditions": {
+   "targets": [
+    {
+     "kind": "equipment_type",
+     "name": "지게차",
+     "mention": "지게차",
+     "type": "지게차"
+    },
+    {
+     "kind": "equipment",
+     "name": "운반물(파렛트)",
+     "mention": "파렛트",
+     "type": "운반물"
+    },
+    {
+     "kind": "equipment",
+     "name": "중량물(톤백)",
+     "mention": "톤백",
+     "type": "중량물"
+    }
+   ],
+   "situations": [
+    "지게차 사용 작업",
+    "상하차 작업 또는 화물(물체)이 적재된 장소 주변에서의 작업",
+    "혼재작업(작업자-작업차량)"
+   ]
+  },
+  "gold": [
+   "지게차",
+   "지게차 사용 작업"
+  ],
+  "situation_hit": true,
+  "equipment_hit": true,
+  "cases": 146,
+  "recall": 1.0,
+  "miss0": 1.0,
+  "rare_recall": 1.0,
+  "precision": 0.8666666666666667
+ },
+ {
+  "id": "Q4-S02",
+  "flags": [],
+  "error": null,
+  "parsed": {
+   "equipment": [
+    {
+     "mention": "리프트",
+     "type": "리프트"
+    }
+   ],
+   "situations": [
+    "리프트·승강기 관련 작업",
+    "비정형 작업(점검)",
+    "비정형 작업(정비·수리·교체·조정)"
+   ]
+  },
+  "conditions": {
+   "targets": [
+    {
+     "kind": "equipment_type",
+     "name": "리프트",
+     "mention": "리프트",
+     "type": "리프트"
+    }
+   ],
+   "situations": [
+    "리프트·승강기 관련 작업",
+    "비정형 작업(점검)",
+    "비정형 작업(정비·수리·교체·조정)"
+   ]
+  },
+  "gold": [
+   "리프트(일반작업용)",
+   "리프트·승강기 관련 작업"
+  ],
+  "situation_hit": true,
+  "equipment_hit": true,
+  "cases": 32,
+  "recall": 1.0,
+  "miss0": 1.0,
+  "rare_recall": 1.0,
+  "precision": 0.7272727272727273
+ },
+ {
+  "id": "Q4-S03",
+  "flags": [
+   "multi_equipment"
+  ],
+  "error": null,
+  "parsed": {
+   "equipment": [
+    {
+     "mention": "사출성형기 전면",
+     "type": "사출성형기"
+    },
+    {
+     "mention": "금형(약 2.5톤)",
+     "type": "인양물"
+    },
+    {
+     "mention": "천장주행크레인",
+     "type": "천장주행크레인"
+    }
+   ],
+   "situations": [
+    "크레인(천장주행, 갠트리, 지브 등) 사용 작업",
+    "중량물 취급·운반 작업",
+    "비정형 작업(정비·수리·교체·조정)"
+   ]
+  },
+  "conditions": {
+   "targets": [
+    {
+     "kind": "equipment_type",
+     "name": "사출성형기",
+     "mention": "사출성형기 전면",
+     "type": "사출성형기"
+    },
+    {
+     "kind": "equipment_type",
+     "name": "인양물",
+     "mention": "금형(약 2.5톤)",
+     "type": "인양물"
+    },
+    {
+     "kind": "equipment_type",
+     "name": "천장주행크레인",
+     "mention": "천장주행크레인",
+     "type": "천장주행크레인"
+    },
+    {
+     "kind": "equipment",
+     "name": "크레인(천장주행크레인)",
+     "mention": "천장주행크레인",
+     "type": "크레인"
+    }
+   ],
+   "situations": [
+    "크레인(천장주행, 갠트리, 지브 등) 사용 작업",
+    "중량물 취급·운반 작업",
+    "비정형 작업(정비·수리·교체·조정)"
+   ]
+  },
+  "gold": [
+   "크레인(천장주행크레인)",
+   "크레인(천장주행, 갠트리, 지브 등) 사용 작업"
+  ],
+  "situation_hit": true,
+  "equipment_hit": true,
+  "cases": 66,
+  "recall": 1.0,
+  "miss0": 1.0,
+  "rare_recall": 1.0,
+  "precision": 0.8125
+ },
+ {
+  "id": "Q4-S04",
+  "flags": [
+   "multi_equipment"
+  ],
+  "error": null,
+  "parsed": {
+   "equipment": [
+    {
+     "mention": "점착제 제조공정",
+     "type": "생산설비"
+    },
+    {
+     "mention": "교반기 인근",
+     "type": "혼합기"
+    },
+    {
+     "mention": "용매 취급 작업",
+     "type": "인화성물질"
+    },
+    {
+     "mention": "탱크 주변 정비",
+     "type": "해당없음"
+    }
+   ],
+   "situations": [
+    "위험물질 취급 또는 그 장소에서 작업",
+    "비정형 작업(정비·수리·교체·조정)",
+    "피트, 맨홀, 오·폐수 처리시설 등 밀폐된 장소에서 작업"
+   ]
+  },
+  "conditions": {
+   "targets": [
+    {
+     "kind": "equipment_type",
+     "name": "생산설비",
+     "mention": "점착제 제조공정",
+     "type": "생산설비"
+    },
+    {
+     "kind": "equipment",
+     "name": "혼합기(교반기)",
+     "mention": "교반기 인근",
+     "type": "혼합기"
+    },
+    {
+     "kind": "equipment_type",
+     "name": "인화성물질",
+     "mention": "용매 취급 작업",
+     "type": "인화성물질"
+    }
+   ],
+   "situations": [
+    "위험물질 취급 또는 그 장소에서 작업",
+    "비정형 작업(정비·수리·교체·조정)",
+    "피트, 맨홀, 오·폐수 처리시설 등 밀폐된 장소에서 작업"
+   ]
+  },
+  "gold": [
+   "인화성물질",
+   "위험물질 취급 또는 그 장소에서 작업"
+  ],
+  "situation_hit": true,
+  "equipment_hit": true,
+  "cases": 105,
+  "recall": 1.0,
+  "miss0": 1.0,
+  "rare_recall": 1.0,
+  "precision": 0.2222222222222222
+ },
+ {
+  "id": "Q4-S05",
+  "flags": [],
+  "error": null,
+  "parsed": {
+   "equipment": [
+    {
+     "mention": "A형 사다리",
+     "type": "사다리"
+    },
+    {
+     "mention": "압출공정 라인",
+     "type": "해당없음"
+    },
+    {
+     "mention": "설비",
+     "type": "생산설비"
+    }
+   ],
+   "situations": [
+    "사다리 사용 작업·통행",
+    "비정형 작업(점검)",
+    "작업장소 통행·이동"
+   ]
+  },
+  "conditions": {
+   "targets": [
+    {
+     "kind": "equipment_type",
+     "name": "사다리",
+     "mention": "A형 사다리",
+     "type": "사다리"
+    },
+    {
+     "kind": "equipment_type",
+     "name": "생산설비",
+     "mention": "설비",
+     "type": "생산설비"
+    }
+   ],
+   "situations": [
+    "사다리 사용 작업·통행",
+    "비정형 작업(점검)",
+    "작업장소 통행·이동"
+   ]
+  },
+  "gold": [
+   "사다리(이동식/A형)",
+   "사다리 사용 작업·통행"
+  ],
+  "situation_hit": true,
+  "equipment_hit": true,
+  "cases": 86,
+  "recall": 1.0,
+  "miss0": 1.0,
+  "rare_recall": 1.0,
+  "precision": 0.2631578947368421
+ },
+ {
+  "id": "Q4-S06",
+  "flags": [
+   "hint"
+  ],
+  "error": null,
+  "parsed": {
+   "equipment": [
+    {
+     "mention": "컨베이어",
+     "type": "컨베이어"
+    },
+    {
+     "mention": "벨트",
+     "type": "해당없음"
+    }
+   ],
+   "situations": [
+    "비정형 작업(이물질 제거·청소)"
+   ]
+  },
+  "conditions": {
+   "targets": [
+    {
+     "kind": "equipment_type",
+     "name": "컨베이어",
+     "mention": "컨베이어",
+     "type": "컨베이어"
+    }
+   ],
+   "situations": [
+    "비정형 작업(이물질 제거·청소)"
+   ]
+  },
+  "gold": [
+   "컨베이어",
+   "비정형 작업(이물질 제거·청소)"
+  ],
+  "situation_hit": true,
+  "equipment_hit": true,
+  "cases": 16,
+  "recall": 1.0,
+  "miss0": 1.0,
+  "rare_recall": 1.0,
+  "precision": 1.0
+ },
+ {
+  "id": "Q4-S07",
+  "flags": [],
+  "error": null,
+  "parsed": {
+   "equipment": [
+    {
+     "mention": "공장 지붕",
+     "type": "지붕·대들보"
+    },
+    {
+     "mention": "선라이트",
+     "type": "해당없음"
+    },
+    {
+     "mention": "사다리",
+     "type": "사다리"
+    }
+   ],
+   "situations": [
+    "사다리 사용 작업·통행",
+    "설비, 구조물 등 높은 장소에서의 작업"
+   ]
+  },
+  "conditions": {
+   "targets": [
+    {
+     "kind": "equipment_type",
+     "name": "지붕·대들보",
+     "mention": "공장 지붕",
+     "type": "지붕·대들보"
+    },
+    {
+     "kind": "equipment_type",
+     "name": "사다리",
+     "mention": "사다리",
+     "type": "사다리"
+    }
+   ],
+   "situations": [
+    "사다리 사용 작업·통행",
+    "설비, 구조물 등 높은 장소에서의 작업"
+   ]
+  },
+  "gold": [
+   "지붕·대들보(선라이트/채광창)",
+   "지붕, 천장 등 위에서 작업"
+  ],
+  "situation_hit": false,
+  "equipment_hit": true,
+  "cases": 47,
+  "recall": 1.0,
+  "miss0": 1.0,
+  "rare_recall": null,
+  "precision": 0.125
+ },
+ {
+  "id": "Q4-S08",
+  "flags": [
+   "multi_equipment"
+  ],
+  "error": null,
+  "parsed": {
+   "equipment": [
+    {
+     "mention": "톤백",
+     "type": "중량물"
+    },
+    {
+     "mention": "파렛트",
+     "type": "운반물"
+    },
+    {
+     "mention": "지게차",
+     "type": "지게차"
+    },
+    {
+     "mention": "야적장 도크",
+     "type": "해당없음"
+    }
+   ],
+   "situations": [
+    "지게차 사용 작업",
+    "중량물 취급·운반 작업",
+    "상하차 작업 또는 화물(물체)이 적재된 장소 주변에서의 작업"
+   ]
+  },
+  "conditions": {
+   "targets": [
+    {
+     "kind": "equipment",
+     "name": "중량물(톤백)",
+     "mention": "톤백",
+     "type": "중량물"
+    },
+    {
+     "kind": "equipment",
+     "name": "운반물(파렛트)",
+     "mention": "파렛트",
+     "type": "운반물"
+    },
+    {
+     "kind": "equipment_type",
+     "name": "지게차",
+     "mention": "지게차",
+     "type": "지게차"
+    }
+   ],
+   "situations": [
+    "지게차 사용 작업",
+    "중량물 취급·운반 작업",
+    "상하차 작업 또는 화물(물체)이 적재된 장소 주변에서의 작업"
+   ]
+  },
+  "gold": [
+   "중량물(톤백)",
+   "상하차 작업 또는 화물(물체)이 적재된 장소 주변에서의 작업"
+  ],
+  "situation_hit": true,
+  "equipment_hit": true,
+  "cases": 126,
+  "recall": 1.0,
+  "miss0": 1.0,
+  "rare_recall": 1.0,
+  "precision": 0.13333333333333333
+ },
+ {
+  "id": "Q4-S09",
+  "flags": [],
+  "error": null,
+  "parsed": {
+   "equipment": [
+    {
+     "mention": "굴삭기",
+     "type": "굴착기"
+    },
+    {
+     "mention": "폐기물 처리구역",
+     "type": "해당없음"
+    }
+   ],
+   "situations": [
+    "건설기계 사용 작업",
+    "혼재작업(작업자-작업차량)",
+    "폐기물 수거·선별 작업"
+   ]
+  },
+  "conditions": {
+   "targets": [
+    {
+     "kind": "equipment_type",
+     "name": "굴착기",
+     "mention": "굴삭기",
+     "type": "굴착기"
+    }
+   ],
+   "situations": [
+    "건설기계 사용 작업",
+    "혼재작업(작업자-작업차량)",
+    "폐기물 수거·선별 작업"
+   ]
+  },
+  "gold": [
+   "굴착기(백호우)",
+   "건설기계 사용 작업"
+  ],
+  "situation_hit": true,
+  "equipment_hit": true,
+  "cases": 12,
+  "recall": 1.0,
+  "miss0": 1.0,
+  "rare_recall": 1.0,
+  "precision": 1.0
+ },
+ {
+  "id": "Q4-S10",
+  "flags": [
+   "hint"
+  ],
+  "error": null,
+  "parsed": {
+   "equipment": [
+    {
+     "mention": "사출성형기",
+     "type": "사출성형기"
+    },
+    {
+     "mention": "금형 내부 슬라이드 코어 리미트 스위치(금형)",
+     "type": "기타 설비"
+    }
+   ],
+   "situations": [
+    "비정형 작업(점검)"
+   ]
+  },
+  "conditions": {
+   "targets": [
+    {
+     "kind": "equipment_type",
+     "name": "사출성형기",
+     "mention": "사출성형기",
+     "type": "사출성형기"
+    },
+    {
+     "kind": "equipment_type",
+     "name": "기타 설비",
+     "mention": "금형 내부 슬라이드 코어 리미트 스위치(금형)",
+     "type": "기타 설비"
+    }
+   ],
+   "situations": [
+    "비정형 작업(점검)"
+   ]
+  },
+  "gold": [
+   "사출성형기",
+   "비정형 작업(점검)"
+  ],
+  "situation_hit": true,
+  "equipment_hit": true,
+  "cases": 20,
+  "recall": 1.0,
+  "miss0": 1.0,
+  "rare_recall": 1.0,
+  "precision": 0.5
+ },
+ {
+  "id": "Q4-S11",
+  "flags": [],
+  "error": null,
+  "parsed": {
+   "equipment": [
+    {
+     "mention": "기계식 주차타워의 리프트",
+     "type": "리프트"
+    }
+   ],
+   "situations": [
+    "기계식주차설비 정비·점검 등",
+    "비정형 작업(점검)"
+   ]
+  },
+  "conditions": {
+   "targets": [
+    {
+     "kind": "equipment_type",
+     "name": "리프트",
+     "mention": "기계식 주차타워의 리프트",
+     "type": "리프트"
+    }
+   ],
+   "situations": [
+    "기계식주차설비 정비·점검 등",
+    "비정형 작업(점검)"
+   ]
+  },
+  "gold": [
+   "기계식 주차설비",
+   "기계식주차설비 정비·점검 등"
+  ],
+  "situation_hit": true,
+  "equipment_hit": false,
+  "cases": 0,
+  "recall": 0.0,
+  "miss0": 0.0,
+  "rare_recall": 0.0,
+  "precision": 0.0
+ },
+ {
+  "id": "Q4-S12",
+  "flags": [
+   "multi_equipment"
+  ],
+  "error": null,
+  "parsed": {
+   "equipment": [
+    {
+     "mention": "트롤리 컨베이어 레일",
+     "type": "컨베이어"
+    },
+    {
+     "mention": "고압실린더",
+     "type": "기타설비"
+    },
+    {
+     "mention": "렌탈 시저형 고소작업대",
+     "type": "고소작업대"
+    }
+   ],
+   "situations": [
+    "비정형 작업(정비·수리·교체·조정)",
+    "고소작업대 사용 작업"
+   ]
+  },
+  "conditions": {
+   "targets": [
+    {
+     "kind": "equipment_type",
+     "name": "컨베이어",
+     "mention": "트롤리 컨베이어 레일",
+     "type": "컨베이어"
+    },
+    {
+     "kind": "equipment_type",
+     "name": "기타설비",
+     "mention": "고압실린더",
+     "type": "기타설비"
+    },
+    {
+     "kind": "equipment",
+     "name": "고소작업대(시저형/렌탈)",
+     "mention": "렌탈 시저형 고소작업대",
+     "type": "고소작업대"
+    },
+    {
+     "kind": "equipment_type",
+     "name": "고소작업대",
+     "mention": "고소작업대",
+     "type": "고소작업대"
+    }
+   ],
+   "situations": [
+    "비정형 작업(정비·수리·교체·조정)",
+    "고소작업대 사용 작업"
+   ]
+  },
+  "gold": [
+   "고소작업대(시저형/렌탈)",
+   "고소작업대 사용 작업"
+  ],
+  "situation_hit": true,
+  "equipment_hit": true,
+  "cases": 29,
+  "recall": 1.0,
+  "miss0": 1.0,
+  "rare_recall": 1.0,
+  "precision": 0.4444444444444444
+ },
+ {
+  "id": "Q4-S13",
+  "flags": [
+   "hint"
+  ],
+  "error": null,
+  "parsed": {
+   "equipment": [
+    {
+     "mention": "생산설비 내부",
+     "type": "생산설비"
+    },
+    {
+     "mention": "산업용로봇",
+     "type": "산업용로봇"
+    },
+    {
+     "mention": "로봇 전원 차단·락아웃",
+     "type": "전기충전부"
+    }
+   ],
+   "situations": [
+    "비정형 작업(정비·수리·교체·조정)",
+    "자동화설비(산업용로봇 포함) 작업",
+    "전기설비 취급 작업"
+   ]
+  },
+  "conditions": {
+   "targets": [
+    {
+     "kind": "equipment_type",
+     "name": "생산설비",
+     "mention": "생산설비 내부",
+     "type": "생산설비"
+    },
+    {
+     "kind": "equipment_type",
+     "name": "산업용로봇",
+     "mention": "산업용로봇",
+     "type": "산업용로봇"
+    },
+    {
+     "kind": "equipment_type",
+     "name": "전기충전부",
+     "mention": "로봇 전원 차단·락아웃",
+     "type": "전기충전부"
+    }
+   ],
+   "situations": [
+    "비정형 작업(정비·수리·교체·조정)",
+    "자동화설비(산업용로봇 포함) 작업",
+    "전기설비 취급 작업"
+   ]
+  },
+  "gold": [
+   "산업용로봇",
+   "비정형 작업(정비·수리·교체·조정)"
+  ],
+  "situation_hit": true,
+  "equipment_hit": true,
+  "cases": 67,
+  "recall": 1.0,
+  "miss0": 1.0,
+  "rare_recall": 1.0,
+  "precision": 0.2222222222222222
+ },
+ {
+  "id": "Q4-S14",
+  "flags": [],
+  "error": null,
+  "parsed": {
+   "equipment": [
+    {
+     "mention": "원재료 저장 탱크",
+     "type": "기타 설비"
+    }
+   ],
+   "situations": [
+    "비정형 작업(이물질 제거·청소)",
+    "피트, 맨홀, 오·폐수 처리시설 등 밀폐된 장소에서 작업"
+   ]
+  },
+  "conditions": {
+   "targets": [
+    {
+     "kind": "equipment_type",
+     "name": "기타 설비",
+     "mention": "원재료 저장 탱크",
+     "type": "기타 설비"
+    }
+   ],
+   "situations": [
+    "비정형 작업(이물질 제거·청소)",
+    "피트, 맨홀, 오·폐수 처리시설 등 밀폐된 장소에서 작업"
+   ]
+  },
+  "gold": [
+   "유해가스",
+   "피트, 맨홀, 오·폐수 처리시설 등 밀폐된 장소에서 작업"
+  ],
+  "situation_hit": true,
+  "equipment_hit": false,
+  "cases": 6,
+  "recall": 0.0,
+  "miss0": 0.0,
+  "rare_recall": null,
+  "precision": 0.0
+ },
+ {
+  "id": "Q4-S15",
+  "flags": [],
+  "error": null,
+  "parsed": {
+   "equipment": [
+    {
+     "mention": "분쇄기",
+     "type": "분쇄·파쇄기"
+    },
+    {
+     "mention": "원료 투입구(투입구 접근)",
+     "type": "해당없음"
+    },
+    {
+     "mention": "원료",
+     "type": "원료 공급설비"
+    }
+   ],
+   "situations": [
+    "원료 투입 작업",
+    "비정형 작업(점검)"
+   ]
+  },
+  "conditions": {
+   "targets": [
+    {
+     "kind": "equipment_type",
+     "name": "분쇄·파쇄기",
+     "mention": "분쇄기",
+     "type": "분쇄·파쇄기"
+    },
+    {
+     "kind": "equipment_type",
+     "name": "원료 공급설비",
+     "mention": "원료",
+     "type": "원료 공급설비"
+    }
+   ],
+   "situations": [
+    "원료 투입 작업",
+    "비정형 작업(점검)"
+   ]
+  },
+  "gold": [
+   "분쇄·파쇄기",
+   "원료 투입 작업"
+  ],
+  "situation_hit": true,
+  "equipment_hit": true,
+  "cases": 9,
+  "recall": 1.0,
+  "miss0": 1.0,
+  "rare_recall": 1.0,
+  "precision": 0.5
+ },
+ {
+  "id": "Q4-S16",
+  "flags": [
+   "hint"
+  ],
+  "error": null,
+  "parsed": {
+   "equipment": [
+    {
+     "mention": "제어반 전기충전부",
+     "type": "전기충전부"
+    }
+   ],
+   "situations": [
+    "전기설비 취급 작업"
+   ]
+  },
+  "conditions": {
+   "targets": [
+    {
+     "kind": "equipment_type",
+     "name": "전기충전부",
+     "mention": "제어반 전기충전부",
+     "type": "전기충전부"
+    }
+   ],
+   "situations": [
+    "전기설비 취급 작업"
+   ]
+  },
+  "gold": [
+   "전기충전부",
+   "전기설비 취급 작업"
+  ],
+  "situation_hit": true,
+  "equipment_hit": true,
+  "cases": 13,
+  "recall": 1.0,
+  "miss0": 1.0,
+  "rare_recall": null,
+  "precision": 0.3333333333333333
+ },
+ {
+  "id": "Q4-D01",
+  "flags": [],
+  "error": null,
+  "parsed": {
+   "equipment": [
+    {
+     "mention": "물류센터",
+     "type": "해당없음"
+    },
+    {
+     "mention": "포장2라인 도크",
+     "type": "해당없음"
+    },
+    {
+     "mention": "2톤 지게차",
+     "type": "지게차"
+    },
+    {
+     "mention": "파렛트",
+     "type": "운반물"
+    },
+    {
+     "mention": "원자재",
+     "type": "운반물"
+    }
+   ],
+   "situations": [
+    "지게차 사용 작업",
+    "상하차 작업 또는 화물(물체)이 적재된 장소 주변에서의 작업",
+    "혼재작업(작업자-작업차량)"
+   ]
+  },
+  "conditions": {
+   "targets": [
+    {
+     "kind": "equipment_type",
+     "name": "지게차",
+     "mention": "2톤 지게차",
+     "type": "지게차"
+    },
+    {
+     "kind": "equipment",
+     "name": "운반물(파렛트)",
+     "mention": "파렛트",
+     "type": "운반물"
+    },
+    {
+     "kind": "equipment_type",
+     "name": "운반물",
+     "mention": "원자재",
+     "type": "운반물"
+    }
+   ],
+   "situations": [
+    "지게차 사용 작업",
+    "상하차 작업 또는 화물(물체)이 적재된 장소 주변에서의 작업",
+    "혼재작업(작업자-작업차량)"
+   ]
+  },
+  "gold": [
+   "지게차",
+   "혼재작업(작업자-작업차량)"
+  ],
+  "situation_hit": true,
+  "equipment_hit": true,
+  "cases": 148,
+  "recall": 1.0,
+  "miss0": 1.0,
+  "rare_recall": 1.0,
+  "precision": 0.35714285714285715
+ },
+ {
+  "id": "Q4-D02",
+  "flags": [
+   "hint"
+  ],
+  "error": null,
+  "parsed": {
+   "equipment": [
+    {
+     "mention": "자동차부품 조립1라인",
+     "type": "해당없음"
+    },
+    {
+     "mention": "산업용로봇",
+     "type": "산업용로봇"
+    },
+    {
+     "mention": "로봇 셀",
+     "type": "자동화설비"
+    }
+   ],
+   "situations": [
+    "비정형 작업(점검)",
+    "자동화설비(산업용로봇 포함) 작업"
+   ]
+  },
+  "conditions": {
+   "targets": [
+    {
+     "kind": "equipment_type",
+     "name": "산업용로봇",
+     "mention": "산업용로봇",
+     "type": "산업용로봇"
+    },
+    {
+     "kind": "equipment_type",
+     "name": "자동화설비",
+     "mention": "로봇 셀",
+     "type": "자동화설비"
+    }
+   ],
+   "situations": [
+    "비정형 작업(점검)",
+    "자동화설비(산업용로봇 포함) 작업"
+   ]
+  },
+  "gold": [
+   "산업용로봇",
+   "비정형 작업(점검)"
+  ],
+  "situation_hit": true,
+  "equipment_hit": true,
+  "cases": 39,
+  "recall": 1.0,
+  "miss0": 1.0,
+  "rare_recall": 1.0,
+  "precision": 0.5
+ },
+ {
+  "id": "Q4-D03",
+  "flags": [
+   "multi_equipment"
+  ],
+  "error": null,
+  "parsed": {
+   "equipment": [
+    {
+     "mention": "생수 포장 3라인",
+     "type": "해당없음"
+    },
+    {
+     "mention": "팔레타이저",
+     "type": "자동화설비"
+    },
+    {
+     "mention": "리프트",
+     "type": "리프트"
+    }
+   ],
+   "situations": [
+    "비정형 작업(점검)",
+    "비정형 작업(정비·수리·교체·조정)"
+   ]
+  },
+  "conditions": {
+   "targets": [
+    {
+     "kind": "equipment",
+     "name": "자동화설비(파렛타이저)",
+     "mention": "팔레타이저",
+     "type": "자동화설비"
+    },
+    {
+     "kind": "equipment_type",
+     "name": "리프트",
+     "mention": "리프트",
+     "type": "리프트"
+    }
+   ],
+   "situations": [
+    "비정형 작업(점검)",
+    "비정형 작업(정비·수리·교체·조정)"
+   ]
+  },
+  "gold": [
+   "자동화설비(파렛타이저)",
+   "비정형 작업(점검)"
+  ],
+  "situation_hit": true,
+  "equipment_hit": true,
+  "cases": 7,
+  "recall": 1.0,
+  "miss0": 1.0,
+  "rare_recall": null,
+  "precision": 0.3333333333333333
+ },
+ {
+  "id": "Q4-D04",
+  "flags": [
+   "hint"
+  ],
+  "error": null,
+  "parsed": {
+   "equipment": [
+    {
+     "mention": "조립2라인 자동화구역",
+     "type": "해당없음"
+    },
+    {
+     "mention": "산업용로봇",
+     "type": "산업용로봇"
+    },
+    {
+     "mention": "제어반",
+     "type": "전기충전부"
+    }
+   ],
+   "situations": [
+    "자동화설비(산업용로봇 포함) 작업",
+    "비정형 작업(점검)",
+    "비정형 작업(정비·수리·교체·조정)"
+   ]
+  },
+  "conditions": {
+   "targets": [
+    {
+     "kind": "equipment_type",
+     "name": "산업용로봇",
+     "mention": "산업용로봇",
+     "type": "산업용로봇"
+    },
+    {
+     "kind": "equipment_type",
+     "name": "전기충전부",
+     "mention": "제어반",
+     "type": "전기충전부"
+    }
+   ],
+   "situations": [
+    "자동화설비(산업용로봇 포함) 작업",
+    "비정형 작업(점검)",
+    "비정형 작업(정비·수리·교체·조정)"
+   ]
+  },
+  "gold": [
+   "산업용로봇",
+   "자동화설비(산업용로봇 포함) 작업"
+  ],
+  "situation_hit": true,
+  "equipment_hit": true,
+  "cases": 21,
+  "recall": 1.0,
+  "miss0": 1.0,
+  "rare_recall": 1.0,
+  "precision": 0.3333333333333333
+ }
+]
